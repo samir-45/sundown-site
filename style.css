@@ -777,7 +777,7 @@ nav h3{
 
 
     nav h3{
-        margin-top: 2vw;
+        /* margin-top: 2vw; */
         display: block;
         padding: 3vw 5vw;
         border: 1px solid #ababab;
@@ -823,7 +823,7 @@ nav h3{
         justify-content: flex-end;
         width: 100%;
         font-family: sans-serif;
-        line-height: 93px;
+        line-height: 83px;
     }
 
 /* ---Nav part Done--- */
@@ -1088,7 +1088,7 @@ nav h3{
     background-image: url(page4-1.webp);
     background-size: cover;
     background-position: center;
-    height: 57%;
+    height: 52%;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -1139,12 +1139,12 @@ nav h3{
 
 .head {
     position: relative;
-    padding: 39px 5px 29px 3px;
+    padding: 25px 5px 29px 3px;
 }
 
 
 .line {
-    top: 39px;
+    top: 31px;
     left: 0;
     height: 61%;
     width: 2px;
@@ -1441,7 +1441,7 @@ nav h3{
 
 
 .footer-bottom {
-    padding: 4vw 3vw;
+    padding: 6px 8px;
     font-family: sans-serif;
     height: 10vh;
     width: 100%;
@@ -1452,6 +1452,7 @@ nav h3{
     align-items: flex-start;
     gap: 26px;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .footer-line {
