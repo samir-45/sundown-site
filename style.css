@@ -1213,14 +1213,14 @@ nav h3{
 
 
 .fixed-image {
-    height: 29vw;
-    width: 22vw;
+    height: 44vw;
+    width: 37vw;
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 8px;
     position: fixed;
     z-index: 1110;
     left: 51%;
-    top: 71%;
+    top: 50%;
     display: none;
     background-size: cover;
     background-position: center;
