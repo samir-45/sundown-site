@@ -780,13 +780,16 @@ nav h3{
         margin-top: 2vw;
         display: block;
         padding: 3vw 5vw;
-        padding-left: 10vw;
         border: 1px solid #ababab;
         border-radius: 30px;
         font-weight: 200;
         cursor: pointer;
 
 
+    }
+
+    nav h3 img{
+        height: 25px;
     }
     
     .full-scr{
@@ -820,6 +823,7 @@ nav h3{
         justify-content: flex-end;
         width: 100%;
         font-family: sans-serif;
+        line-height: 93px;
     }
 
 /* ---Nav part Done--- */
@@ -1073,6 +1077,7 @@ nav h3{
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    padding-bottom: 30px;
 }
 
 .page4 .cont .right {
@@ -1379,7 +1384,7 @@ nav h3{
 }
 
 .footer h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: sans-serif;
     letter-spacing: -3px;
     margin-bottom: 6vw;
@@ -1436,7 +1441,7 @@ nav h3{
 
 
 .footer-bottom {
-    padding: 0 3vw;
+    padding: 4vw 3vw;
     font-family: sans-serif;
     height: 10vh;
     width: 100%;
@@ -1446,6 +1451,7 @@ nav h3{
     justify-content: space-between;
     align-items: flex-start;
     gap: 26px;
+    flex-wrap: wrap;
 }
 
 .footer-line {
