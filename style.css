@@ -800,11 +800,26 @@ nav h3{
     }
 
     .full-div1{
+        position: relative;
         height: 50%;
         width: 100%;
+        color: black;
         background-color: #EFEAE3;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+    }
+
+    .full-text{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        gap: 10px;
+        font-size: 3rem;
+        justify-content: flex-end;
+        width: 100%;
+        font-family: sans-serif;
     }
 
 /* ---Nav part Done--- */
@@ -1381,7 +1396,7 @@ nav h3{
     font-family: sans-serif;
     /* border: 2px solid red; */
     position: fixed;
-    top: 76vw;
+    top: 80px;
     padding: 2vw 6vw;
 
 }
@@ -1443,9 +1458,9 @@ nav h3{
     bottom: 26vw;
 }
 
-nav h3{
+/* nav h3{
     display: none;
-}
+} */
 
 
 }
